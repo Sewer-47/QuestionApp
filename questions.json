@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "description": [
+        "Jak nazywa sie stolica polski?",
+        "a) Warszawa",
+        "b) Slupsk",
+        "c) Slask",
+        "d) Poznan miasto doznan"
+      ],
+      "answerChar": "a"
+    },
+    {
+      "description": [
+        "Jak nazywa sie stolica Niemiec",
+        "a) Gutenmorgen",
+        "b) Berlin",
+        "c) Frankfurt"
+      ],
+      "answerChar": "b"
+    },
+    {
+      "description": [
+        "Ile to 6 * 6",
+        "a) 36",
+        "b) 48",
+        "c) To jest najgorsze"
+      ],
+      "answerChar": "a"
+    }
+  ]
+}
