@@ -1,0 +1,76 @@
+{
+  "messages": {
+    "quizNotFound": "Nie znaleziono takiego quizu",
+    "nextQuizAsk": "Czy chcesz zagrac w nastepny quiz? [T/N] ",
+    "correctAnswer": "Gratulacje, zdobywasz 1 punkt",
+    "incorrectAnswer": "Zla odpowiedz, 0 punktow",
+    "notAllowedChar": "Uzyto niedozwolonego znaku, dozwolone [a-z]",
+    "toManyChars": "Odpowiedz moze zawierac tylko jeden znak",
+    "intro": [
+      "****************************",
+      "*        Gra quiz          *",
+      "****************************",
+      "Wybierz quiz, w ktory chcesz zagrac:"
+    ],
+    "outro": [
+      "***********************************",
+      "* Ukonczyles quiz z wynikiem: {}/{} *",
+      "***********************************"
+    ]
+  },
+  "quizzes": {
+    "stolice": {
+      "id": "stolice",
+      "displayName": "Stolice panstw",
+      "questions": [
+        {
+          "description": [
+            "1. Jak nazywa sie stolica polski? ({} pkt)",
+            "a) Warszawa",
+            "b) Slupsk",
+            "c) Slask",
+            "d) Poznan miasto doznan"
+          ],
+          "answerChar": "a",
+          "points": 1
+        },
+        {
+          "description": [
+            "2. Jak nazywa sie stolica Niemiec ({} pkt)",
+            "a) Gutenmorgen",
+            "b) Berlin",
+            "c) Frankfurt"
+          ],
+          "answerChar": "b",
+          "points": 1
+        }
+      ]
+    },
+    "matematyka": {
+      "id": "matematyka",
+      "displayName": "Matematyka",
+      "questions": [
+        {
+          "description": [
+            "1. Ile to 6 * 6? ({} pkt)",
+            "a) 48",
+            "b) 36",
+            "c) To jest najgorsze"
+          ],
+          "answerChar": "b",
+          "points": 10
+        },
+        {
+          "description": [
+            "2. Ile wynosi liczba pi ({} pkt)",
+            "a) 15",
+            "b) 2.6",
+            "c) 3.14"
+          ],
+          "answerChar": "c",
+          "points": 1
+        }
+      ]
+    }
+  }
+}
